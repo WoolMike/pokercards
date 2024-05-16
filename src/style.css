@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.icons {
+  font-size: 9rem;
+}
+.card {
+  border-radius: 3%;
+  position: relative;
+}
+.pinta-1 {
+  position: absolute;
+  top: -30px;
+  right: 73%;
+}
+.pinta-2 {
+  position: absolute;
+  bottom: -15px;
+  left: 73%;
+  display: flex;
+  transform: rotate(180deg);
+}
+.ancho {
+  padding: 1rem;
+  margin-left: 3rem;
+}
+.columnas {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
